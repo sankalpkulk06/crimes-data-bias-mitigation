@@ -1,1 +1,3 @@
-# crimes-data-bias-mitigation
+# Fair and Bias-Aware Crime Prediction Using the UCI Crime Dataset: A Multi-Stage Machine Learning Approach
+
+Predicting violent crime rates using socio-economic data poses fairness challenges due to biases related to race, income, and policing factors. This project addresses these challenges using a multi-stage bias mitigation strategy on the UCI Crime dataset. Preprocessing techniques from the AI Fairness 360 toolkit reduce correlations between sensitive attributes and other features. In-processing fairness is achieved using a modified XGBoost model with fairness constraints to balance predictive performance and demographic equity. Post-processing utilizes the Wasserstein Barycenter method from HolisticAI to adjust biased predictions related to income groups. Evaluation using Demographic Parity, Disparate Impact, and Equalized Odds demonstrates improved fairness while maintaining accuracy.
